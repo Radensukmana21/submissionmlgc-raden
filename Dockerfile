@@ -35,4 +35,4 @@ RUN bun run build
 # run the app
 USER bun
 EXPOSE 3000/tcp
-ENTRYPOINT [ "bun", "run", "index.ts" ]
+ENTRYPOINT [ "bun", "run", "./src/index.ts" ]
